@@ -3,10 +3,15 @@
 This guide provides step-by-step instructions to deploy ArgoCD on AKS using Terraform, facilitating a GitOps workflow on Azure.
 
 ## Prerequisites
-Kubectl: Installed. Download here: kubectl for Windows
-Azure CLI: Installed and authenticated with az login.
-AKS Credentials (AKS is up and running): Obtain with az aks get-credentials --resource-group myAksResourceGroup --name myAksCluster.
-Visual Studio Code Base64 Decode and Encode Extension: Installed for handling base64 decodings. Will be used to decode the initial ArgoCD admin password.
+
+-Kubectl: Installed. Download here: kubectl for Windows
+
+-Azure CLI: Installed and authenticated with az login.
+
+-AKS Credentials (AKS is up and running): Obtain with az aks get-credentials --resource-group myAksResourceGroup --name myAksCluster.
+
+-Visual Studio Code Base64 Decode and Encode Extension: Installed for handling base64 decodings. Will be used to decode the initial ArgoCD admin password.
+
 ## Terraform Workflow
 
 ## Supermario-argocd
